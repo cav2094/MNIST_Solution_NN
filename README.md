@@ -1,4 +1,4 @@
-# MNIST_Solution_NN
+# MNIST_Solution_NN : Teaching a computer to recognize handwritten digits from the famous MNIST dataset.
 MNIST Digit Classifier
 A neural network built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset. This project demonstrates a standard deep learning workflow and achieves 98.6% accuracy on the test set.
 
