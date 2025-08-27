@@ -1,6 +1,11 @@
 # MNIST_Solution_NN : Teaching a computer to recognize handwritten digits from the famous MNIST dataset.
-MNIST Digit Classifier
-A neural network built with TensorFlow/Keras to classify handwritten digits from the MNIST dataset. This project demonstrates a standard deep learning workflow and achieves 98.6% accuracy on the test set.
+Ever wondered how a computer learns to read? This project demonstrates the process by building a neural network that deciphers handwritten digits. It walks through a complete deep learning workflow in TensorFlow/Keras, achieving 98.6% accuracy and showcasing how machines can learn to recognize patterns just like we do. 
+
+# Summary 
+This notebook builds and evaluates a neural network to classify handwritten digits from the MNIST dataset. The process begins by loading and preprocessing the data, which includes normalizing pixel values and reshaping the images. A sequential model with three hidden layers is constructed using TensorFlow/Keras, incorporating techniques like Batch Normalization and Dropout to prevent overfitting.
+
+The model is trained for 30 epochs, and the best-performing version is saved. Finally, the model's performance is thoroughly evaluated on unseen test data, achieving an accuracy of 98.6%. The notebook concludes by visualizing the model's predictions, including a confusion matrix and examples of correctly and incorrectly classified digits. This project demonstrates a complete workflow for a standard deep learning task.
+
 
 Run Locally
 To run this project, clone the repository and use Conda to create the environment and install the required packages.
