@@ -6,7 +6,12 @@ This notebook builds and evaluates a neural network to classify handwritten digi
 
 The model is trained for 30 epochs, and the best-performing version is saved. Finally, the model's performance is thoroughly evaluated on unseen test data, achieving an accuracy of 98.6%. The notebook concludes by visualizing the model's predictions, including a confusion matrix and examples of correctly and incorrectly classified digits. This project demonstrates a complete workflow for a standard deep learning task.
 
+# Example of MNIST Data-set
+![IMAGE ALT TEXT HERE](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/MNIST_dataset_example.png/640px-MNIST_dataset_example.png) 
 
+
+
+# Setup
 Run Locally
 To run this project, clone the repository and use Conda to create the environment and install the required packages.
 
